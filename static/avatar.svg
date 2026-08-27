@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal portrait avatar</title>
+  <desc id="desc">Black and white line-art portrait with curly hair and rectangular glasses.</desc>
+
+  <style>
+    .line { fill: none; stroke: #111; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .fine { fill: none; stroke: #111; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+    .fill { fill: #111; }
+    .paper { fill: #fff; }
+  </style>
+
+  <rect width="512" height="512" fill="#fff"/>
+
+  <!-- shoulders / shirt -->
+  <path class="fill" d="M72 480c18-64 72-97 131-109 18-4 30-14 34-29h38c4 15 16 25 34 29 59 12 113 45 131 109H72z"/>
+  <path class="paper" d="M190 379c18 27 39 40 66 40s48-13 66-40c-17-4-28-15-32-29h-68c-4 14-15 25-32 29z"/>
+  <path class="line" d="M192 379c18 27 38 40 64 40s46-13 64-40"/>
+
+  <!-- neck -->
+  <path class="paper" d="M207 315v48c0 31 22 53 49 53s49-22 49-53v-48H207z"/>
+  <path class="line" d="M207 315v48M305 315v48"/>
+
+  <!-- face -->
+  <path class="paper" d="M171 176c3-66 38-105 85-105s82 39 85 105v81c0 59-39 104-85 104s-85-45-85-104v-81z"/>
+  <path class="line" d="M171 179c1-66 37-108 85-108s84 42 85 108v77c0 61-39 105-85 105s-85-44-85-105v-77"/>
+
+  <!-- ears -->
+  <path class="paper" d="M170 218c-15-10-28 4-24 27 4 25 17 39 30 34"/>
+  <path class="paper" d="M342 218c15-10 28 4 24 27-4 25-17 39-30 34"/>
+  <path class="fine" d="M170 218c-15-10-28 4-24 27 4 25 17 39 30 34"/>
+  <path class="fine" d="M342 218c15-10 28 4 24 27-4 25-17 39-30 34"/>
+
+  <!-- hair mass -->
+  <path class="fill" d="M166 188c-9-62 20-120 84-128 55-7 105 29 102 104-8-12-16-22-27-31-14-12-28-19-45-22-18-4-36-2-54 4-19 7-36 18-49 34-5 12-9 25-11 39z"/>
+
+  <!-- curls -->
+  <g class="line" stroke-width="5">
+    <path d="M181 143c-12-14 0-33 17-25 11-18 33-20 42-4"/>
+    <path d="M205 105c6-18 33-20 39-2 12-15 36-10 39 10"/>
+    <path d="M250 92c5-18 34-20 40-1 15-11 34 0 31 19"/>
+    <path d="M286 107c15-13 40 2 34 21 18-5 31 14 20 29"/>
+    <path d="M314 135c16-3 27 14 17 27 15 5 16 27 1 34"/>
+    <path d="M177 164c-10-3-14-15-8-24 7-11 22-12 31-4"/>
+    <path d="M218 128c-3 13 12 21 23 14 8-5 10-15 6-23"/>
+    <path d="M248 123c4 15 20 19 31 9 8-7 8-19 1-27"/>
+    <path d="M283 130c0 14 14 23 26 17 9-4 13-14 9-23"/>
+  </g>
+
+  <!-- eyebrows -->
+  <path class="fine" d="M190 199c17-10 34-11 50-4"/>
+  <path class="fine" d="M272 195c16-7 33-6 50 4"/>
+
+  <!-- glasses -->
+  <g class="line">
+    <path d="M176 199c17-5 47-3 68 5 7 3 10 8 9 15l-4 28c-2 13-11 21-24 22l-20-1c-15-1-25-10-27-24l-4-26c-1-8 0-14 2-19z"/>
+    <path d="M336 199c-17-5-47-3-68 5-7 3-10 8-9 15l4 28c2 13 11 21 24 22l20-1c15-1 25-10 27-24l4-26c1-8 0-14-2-19z"/>
+    <path d="M251 212c4-3 7-4 10 0"/>
+  </g>
+
+  <!-- eyes -->
+  <path class="fine" d="M193 223c10-9 24-9 34 0"/>
+  <path class="fine" d="M285 223c10-9 24-9 34 0"/>
+  <circle class="fill" cx="210" cy="224" r="4"/>
+  <circle class="fill" cx="302" cy="224" r="4"/>
+
+  <!-- nose -->
+  <path class="fine" d="M256 232c-2 12-4 22-9 30 2 7 8 10 16 9"/>
+  <path class="fine" d="M248 274c5-4 11-4 16 0"/>
+
+  <!-- mouth -->
+  <path class="fine" d="M219 301c12 6 24 8 37 8 13 0 26-2 37-8"/>
+  <path class="fine" d="M231 317c15 8 35 8 50 0" opacity="0.35"/>
+
+  <!-- subtle cheek / smile marks -->
+  <path class="fine" d="M194 287c-4 6-5 12-4 19" opacity="0.28"/>
+  <path class="fine" d="M318 287c4 6 5 12 4 19" opacity="0.28"/>
+</svg>

@@ -1,0 +1,25 @@
+base_url           = "https://marlonetheredge.github.io"
+title              = "Marlon Etheredge MSc"
+description        = "The personal website of Marlon Etheredge."
+
+compile_sass       = true
+build_search_index = true
+
+theme              = "no-style-please"
+
+[markdown]
+
+[markdown.highlighting]
+theme              = "catppuccin-mocha"
+
+[extra]
+list_pages         = false
+
+header_nav = [
+    { name = "home", url = "/" },
+    { name = "blog", url = "/blog/" },
+    { name = "about", url = "/about/" },
+    { name = "cv", url = "/cv/" },
+    { name = "publications", url = "/publications/" },
+    { name = "contact", url = "/contact/" },
+]
