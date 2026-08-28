@@ -67,7 +67,7 @@
         {% if image %}<meta property="twitter:image" content="{{ image }}">{% endif %}
         
         <link rel="canonical" href="{{ url | safe }}">
-        {% if image %}<link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path=config.extra.logo, trailing_slash=false) }}">{% endif %}
+        <link rel="icon" type="image/png" href="/avatar.png">
         <script type="application/ld+json">
             {
                 {% if description %}"description":"{{ description | safe }}",{% endif %}
